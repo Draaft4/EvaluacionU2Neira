@@ -7,7 +7,7 @@ import ec.edu.ups.pw59.EvaluacionU2Neira.DAO.AutoDAO;
 import ec.edu.ups.pw59.EvaluacionU2Neira.modelo.Auto;
 
 @Stateless
-public class AutoON {
+public class AutoON implements AutoONLocal,AutoONRemote {
 	
 	@Inject
 	private AutoDAO dao; 
